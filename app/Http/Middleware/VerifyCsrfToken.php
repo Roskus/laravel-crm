@@ -13,6 +13,7 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         'admin/emails/inbound-parse',
-        'admin/web-forms/forms/*'
+        'admin/web-forms/forms/*',
+        'google/webhook',
     ];
 }
